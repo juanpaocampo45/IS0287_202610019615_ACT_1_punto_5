@@ -4,8 +4,8 @@ public class Main {
 
         SalaCine cine = new SalaCine();
 
-        cine.reservarAsiento(2, 3);
-        cine.reservarAsiento(2, 4);
+        cine.reservarAsiento(4, 6);
+        cine.reservarAsiento(5, 5);
 
         cine.mostrarSala();
 

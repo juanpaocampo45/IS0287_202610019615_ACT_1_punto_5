@@ -8,8 +8,8 @@ public class SalaCine {
 
     public void reservarAsiento(int fila, int col) {
 
-        if (fila >= 0 && fila < 8 &&
-            col >= 0 && col < 10) {
+        if (fila >= 0 && fila < 10 &&
+            col >= 0 && col < 8) {
 
             if (sala[fila][col] == 0) {
 
